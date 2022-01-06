@@ -1,0 +1,9 @@
+location: ""
+global_allow_inbound_mgmt_ips:
+    - 81.174.240.50
+students:
+    student1:
+        allow_inbound_mgmt_ips: 
+            - 1.1.1.1
+    student2:
+        allow_inbound_mgmt_ips: []
